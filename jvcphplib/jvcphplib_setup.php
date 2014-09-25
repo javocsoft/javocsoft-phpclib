@@ -31,7 +31,7 @@ define ("LIB_MODULE_PATH", "jvcphplib");
 //API Segurity related
 	define ("LIB_OPENSSL_PATH", INIT_OPENSSL_PATH);
 	//Download 'cacert.pem' from 'http://curl.haxx.se/docs/caextract.html'
-	define ("LIB_CACERTS_FILE_PATH", "phar://". APP_EXTERNAL_LIBS_PATH . "jvcphplib.phar/jvcphplib/clib/resources/certs/cacert.pem");	
+	define ("LIB_CACERTS_FILE_PATH", __DIR__ . "/clib/resources/certs/cacert.pem");	
 	
 /**
  * Error handling.
