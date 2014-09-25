@@ -20,7 +20,7 @@ To use the library, follow these steps:
     Download and install comporser: https://getcomposer.org/Composer-Setup.exe
 </pre>
 
-<u>More about Composer</u>
+More about Composer:
 
   See Installation notes:  https://getcomposer.org/download/<br>
   See getting started: https://getcomposer.org/doc/00-intro.md<br>
