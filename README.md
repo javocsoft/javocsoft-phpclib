@@ -24,9 +24,9 @@ To use the library, follow these steps:
 
 Composer
 
-  See Installation notes:  https://getcomposer.org/download/
-  See getting started: https://getcomposer.org/doc/00-intro.md
-  See Documentation https://getcomposer.org/doc/03-cli.md
+  See Installation notes:  https://getcomposer.org/download/<br>
+  See getting started: https://getcomposer.org/doc/00-intro.md<br>
+  See Documentation https://getcomposer.org/doc/03-cli.md<br>
 
 3.- Add the composer "autoload.php" to your code by including it: 
 <pre>
