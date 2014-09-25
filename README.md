@@ -21,7 +21,10 @@ To use the library, follow these steps:
     //In Windows system
     Download and install comporser: https://getcomposer.org/Composer-Setup.exe
 </pre>
-    See https://getcomposer.org/download/
+Composer
+  See Installation notes:  https://getcomposer.org/download/
+  See getting started: https://getcomposer.org/doc/00-intro.md
+  See Documentation https://getcomposer.org/doc/03-cli.md
 
 3.- Add the composer "autoload.php" to your code by including it: 
 <pre>
