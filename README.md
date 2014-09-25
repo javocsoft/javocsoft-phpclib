@@ -8,7 +8,7 @@ javocsoft-phpclib
 This library is a compendium of utility routines and classes that can save you time when coding in PHP.
 
 
-<b>INSTALLATION & USAGE</b>
+<br><b>INSTALLATION & USAGE</b>
 
 To use the library, follow these steps:
 
