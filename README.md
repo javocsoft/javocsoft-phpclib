@@ -50,7 +50,7 @@ More about Composer:
     require 'vendor/autoload.php';
 </pre>
     
-4.- <b>Initilize the library</b>:
+4.- <b>Initialize the library</b>:
 <pre>
     jvcphplib\JVCPHPLib::initLibrary();
 </pre>
