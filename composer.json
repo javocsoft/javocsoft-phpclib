@@ -3,6 +3,7 @@
 	"description" : "JavocSoft PHP Commons Library",
 	"type" : "library",	
 	"keywords" : [
+		"javocsoft",
 		"library",
 		"commons",
 		"utilities"
