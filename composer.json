@@ -1,5 +1,5 @@
 {
-	"name" : "javocsoft/jvcphplib",
+	"name" : "javocsoft-phpclib/jvcphplib",
 	"description" : "JavocSoft PHP Commons Library",
 	"type" : "library",	
 	"keywords" : [
