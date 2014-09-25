@@ -1,12 +1,14 @@
 javocsoft-phpclib
 =================
 
-<b>JavocSoft PHP Commons Library</b>
+<h3>JavocSoft PHP Commons Library</h3>
 
-<h3><b>DESCRIPTION<b></h3>
+<b>DESCRIPTION<b>
 
 This library is a compendium of utility routines and classes that can save you time when coding in PHP.
 
+
+<b>INSTALLATION & USAGE</b>
 
 To use the library, follow these steps:
 
