@@ -1,0 +1,26 @@
+{
+	"name" : "javocsoft-phpclib",
+	"description" : "JavocSoft PHP Commons Library",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Javier González Serrano",
+			"email" : "javocsoft@gmail.com",
+			"homepage" : "http://www.javocsoft.es"
+		}
+	],
+	"keywords" : [
+		"library",
+		"commons",
+		"utilities"
+	],
+	"homepage" : "www.javocsoft.es",
+	"license" : [
+		"GPL-2.0+"
+	],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"support" : {
+		"email" : "javocsoft@gmail.com"
+	}
+}
