@@ -14,8 +14,6 @@ define ("LIB_ERRORS_ENV_MODE_PROD", "PROD");
 
 //This is where your webapp application is installed
 define ("LIB_BASEDIR_PATH", INIT_BASEDIR_PATH);
-//Where you put the external modules you are using.
-define ("APP_EXTERNAL_LIBS_PATH", INIT_EXTERNAL_LIBS_PATH);
 
 //System tenporal folder
 define ("LIB_TEMP_PATH", sys_get_temp_dir());
