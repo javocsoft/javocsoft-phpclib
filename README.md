@@ -12,7 +12,17 @@ This library is a compendium of utility routines and classes that can save you t
 
 To use the library, follow these steps:
 
-2.- <b>Get the library code</b> by using Composer utility
+1.- <b>Get the library code</b> by using Composer utility. First, create "composer.json" file adding to it these lines:
+<pre>
+{
+    "require": {
+        "javocsoft/jvcphpclib": "1.0.0"        
+    }
+}
+</pre>
+
+Second, download and install the library:
+
 <pre>
     //In Unix/Linux
     curl -sS https://getcomposer.org/installer | php   
