@@ -21,8 +21,8 @@
  */
 namespace jvcphplib;
 
-require_once "jvcphplib/jvcphplib_setup.php";
-require_once "jvcphplib/jvcphplib_autoloader.php";
+require_once "jvcphplib_setup.php";
+require_once "jvcphplib_autoloader.php";
 
 /**
  * Cookie tools.
