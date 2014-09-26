@@ -26,6 +26,9 @@
 	"support" : {
 		"email" : "javocsoft@gmail.com"
 	},
+	"archive": {
+		"exclude": ["/.settings", ".buildpath", ".project"]
+	},
 	"autoload": {
         "psr-4": {
             "jvcphplib\\": "jvcphplib"
