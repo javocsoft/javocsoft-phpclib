@@ -21,7 +21,7 @@ To use the library, follow these steps:
 }
 </pre>
 
-Second, download Composer utility:
+Second, <b>download Composer</b> utility:
 
 <pre>
     //In Unix/Linux
@@ -36,7 +36,7 @@ More about Composer:
   See getting started: https://getcomposer.org/doc/00-intro.md<br>
   See Documentation https://getcomposer.org/doc/03-cli.md<br>
 
-3.- Now, download the librery by running composer where we created the file "composer.json".
+3.- Now, <b>download the library</b> by running composer where we created the file "composer.json".
 
 4.- <b>Configure the library</b> parameters according to your project by setting these parameters:
 <pre>
