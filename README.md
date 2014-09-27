@@ -21,7 +21,7 @@ To use the library, follow these steps:
 }
 </pre>
 
-Second, <b>download Composer</b> utility:
+2.- Second, <b>download Composer</b> utility:
 
 <pre>
     //In Unix/Linux
