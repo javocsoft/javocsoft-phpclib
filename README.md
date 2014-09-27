@@ -21,7 +21,7 @@ To use the library, follow these steps:
 }
 </pre>
 
-Second, download and install the library:
+Second, download Composer utility:
 
 <pre>
     //In Unix/Linux
@@ -36,7 +36,9 @@ More about Composer:
   See getting started: https://getcomposer.org/doc/00-intro.md<br>
   See Documentation https://getcomposer.org/doc/03-cli.md<br>
 
-2.- <b>Configure the library</b> parameters according to your project by setting these parameters:
+3.- Now, download the librery by running composer where we created the file "composer.json".
+
+4.- <b>Configure the library</b> parameters according to your project by setting these parameters:
 <pre>
     define ("INIT_APPNAME","your_app_name");
     define ("INIT_BASEDIR_PATH","your_app_folder\\");
@@ -45,12 +47,12 @@ More about Composer:
     define ("INIT_ERRORS_ENV_MODE","DEV"); //Or PROD
 </pre>
 
-3.- <b>Add library classes to your project</b>. To achieve this, add the composer "autoload.php" to your code by including it: 
+5.- <b>Add library classes to your project</b>. To achieve this, add the composer "autoload.php" to your code by including it: 
 <pre>
     require 'vendor/autoload.php';
 </pre>
     
-4.- <b>Initialize the library</b>:
+6.- <b>Initialize the library</b>:
 <pre>
     jvcphplib\JVCPHPLib::initLibrary();
 </pre>
