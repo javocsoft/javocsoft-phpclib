@@ -1,9 +1,29 @@
 <?php
+/**
+ * JavocSoft PHP Commons Library.
+ *
+ *   Copyright (C) 2014 JavocSoft - Javier González Serrano.
+ *
+ *   This file is part of JavocSoft PHP Commons Library.
+ *
+ *   This library is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   JavocSoft Commons Library is distributed in the hope that it will
+ *   be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+ *   of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with javocSoft Commons Library. If not, see <http://www.gnu.org/licenses/>.
+ */
 namespace jvcphplib;
 
 /**
  * JavocSoft Commons Library Setup
- * 
+ *
  * @author JavocSoft 2014
  * @version 1.0
  */
@@ -29,8 +49,8 @@ define ("LIB_MODULE_PATH", "jvcphplib");
 //API Segurity related
 	define ("LIB_OPENSSL_PATH", INIT_OPENSSL_PATH);
 	//Download 'cacert.pem' from 'http://curl.haxx.se/docs/caextract.html'
-	define ("LIB_CACERTS_FILE_PATH", __DIR__ . "/clib/resources/certs/cacert.pem");	
-	
+	define ("LIB_CACERTS_FILE_PATH", __DIR__ . "/clib/resources/certs/cacert.pem");
+
 /**
  * Error handling.
  */
@@ -46,7 +66,7 @@ define ("LIB_MODULE_PATH", "jvcphplib");
 //Production Value: E_ALL & ~E_DEPRECATED
 
 if(INIT_ERRORS_ENV_MODE==LIB_ERRORS_ENV_MODE_DEV){
-	error_reporting(E_ALL);	
+	error_reporting(E_ALL);
 	ini_set('display_errors',1);
 	ini_set('html_errors', 1);
 }else if(INIT_ERRORS_ENV_MODE==LIB_ERRORS_ENV_MODE_PROD){

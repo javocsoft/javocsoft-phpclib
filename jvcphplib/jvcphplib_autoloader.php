@@ -1,6 +1,4 @@
 <?php
-namespace jvcphplib;
-
 /**
  * JavocSoft PHP Commons Library.
  *
@@ -21,16 +19,18 @@ namespace jvcphplib;
  *   You should have received a copy of the GNU General Public License
  *   along with javocSoft Commons Library. If not, see <http://www.gnu.org/licenses/>.
  */
+namespace jvcphplib;
+
 
 ini_set('include_path', dirname(__FILE__) . PATH_SEPARATOR . ini_get('include_path'));
 
 spl_autoload_register(function ($classname) {
 	$file = preg_replace('/\\\/', DIRECTORY_SEPARATOR, $classname) . '.php';
-	
+
 	if (strpos($file,'clib') !== false) {
-		//if(!class_exists($file)){ 
-			include_once LIB_BASEDIR_PATH . $file;      			
-		//}                    
+		//if(!class_exists($file)){
+			include_once LIB_BASEDIR_PATH . $file;
+		//}
 	}
 });
 ?>
