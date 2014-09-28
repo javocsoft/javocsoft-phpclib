@@ -16,7 +16,7 @@ To use the library, follow these steps:
 <pre>
 {
     "require": {
-        "javocsoft/jvcphpclib": "1.0.0"        
+        "javocsoft/jvcphpclib": "1.0.*"        
     }
 }
 </pre>
